@@ -1,36 +1,30 @@
 # SharpWeb
 
-## Introduction
+## Introducccion
 
-SharpWeb is a .NET 2.0 CLR compliant project that can retrieve saved logins from Google Chrome, Firefox, Internet Explorer and Microsoft Edge. In the future, this project will be expanded upon to retrieve Cookies and History items from these browsers.
+SharpWeb es un proyecto compatible con .NET 2.0 CLR que puede recuperar inicios de sesión guardados de Google Chrome, Firefox, Internet Explorer y Microsoft Edge. En el futuro, este proyecto se ampliará para recuperar elementos de Cookies e Historial de estos navegadores.
 
-## Usage
+## Uso
 
 ```
-Usage:
-    .\SharpWeb.exe arg0 [arg1 arg2 ...]
+LA CARPETA BIN se crea despues de abrir el archivo # SharpWeb.sln en Visual Studio
+uso:
+ABRIMOS POWERSHELL
+ bin\Debug\SharpWeb.exe arg
 
-Arguments:
+arg:
     all       - Retrieve all Chrome, FireFox and IE/Edge credentials.
     full      - The same as 'all'
     chrome    - Fetch saved Chrome logins.
     firefox   - Fetch saved FireFox logins.
     edge      - Fetch saved Internet Explorer/Microsoft Edge logins.
-```
 
-## Example: Retrieve Edge and Firefox Credentials
+## EJEMPLO: Para Firefox y Edge (asi vemos que podemos excluir a chrome por ejemplo)
 
 ```
 .\SharpWeb.exe edge firefox
 ```
 ![FireFox/Edge](Images/ff_edge.png)
 
-## Example: Retrieve All Saved Browser Credentials
-
-```
-.\SharpWeb.exe all
-```
-
-## Standing on the Shoulders of Giants
-
-This project uses the work of @plainprogrammer and his work on a compliant .NET 2.0 CLR compliant SQLite parser, which can be found [here](https://github.com/plainprogrammer/csharp-sqlite). In addition, @gourk created a wonderful ASN parser and cryptography helpers for decrypting and parsing the FireFox login files. It uses a revised version of his work (found [here](https://github.com/gourk/FirePwd.Net)) to parse these logins out. Without their work this project would not have come together nearly as quickly as it did.
+ falocab
+I look at you and I hack your face, bitch !!
