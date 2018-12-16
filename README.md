@@ -7,7 +7,7 @@ SharpWeb es un proyecto compatible con .NET 2.0 CLR que puede recuperar inicios 
 ## Uso
 
 ```
-LA CARPETA BIN se crea despues de abrir el archivo # SharpWeb.sln en Visual Studio
+LA CARPETA BIN se crea despues de abrir el archivo "SharpWeb.sln" en Visual Studio
 uso:
 ABRIMOS POWERSHELL
  bin\Debug\SharpWeb.exe arg
