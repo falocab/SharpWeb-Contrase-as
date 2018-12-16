@@ -19,12 +19,6 @@ arg:
     firefox   - Fetch saved FireFox logins.
     edge      - Fetch saved Internet Explorer/Microsoft Edge logins.
 
-## EJEMPLO: Para Firefox y Edge (asi vemos que podemos excluir a chrome por ejemplo)
-
-```
-.\SharpWeb.exe edge firefox
-```
-![FireFox/Edge](Images/ff_edge.png)
 
  falocab
 I look at you and I hack your face, bitch !!
